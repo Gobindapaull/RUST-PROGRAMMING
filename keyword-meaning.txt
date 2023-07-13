@@ -1,0 +1,2 @@
+// mutability = liability or tendency to change
+// immutable = unchangeable/fixed/constant
