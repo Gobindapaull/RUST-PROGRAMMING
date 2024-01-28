@@ -5,3 +5,8 @@ Rust is blazingly fast and memory-efficient: with no runtime or garbage collecto
 
 Command:
 rustc --version
+rustc update
+
+ls -lh
+
+cargo --version
