@@ -12,3 +12,9 @@ rustc update
 ls -lh
 
 cargo --version
+
+cargo new project_name
+
+cargo run
+
+
