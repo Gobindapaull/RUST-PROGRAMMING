@@ -1,5 +1,5 @@
 use anyhow::Result;
-use ethers::providers::{Http, Middleware, Provider};
+use ethers::prelude::*;
 use tokio;
 
 #[tokio::main]
@@ -13,6 +13,7 @@ async fn main() -> Result<()> {
     println!("Latest block number: {:?}", block_number);
 
     Ok(())
+
 }
 
 // [package]
@@ -22,7 +23,7 @@ async fn main() -> Result<()> {
 
 // [dependencies]
 // anyhow = "1.0"
-// ethers = { version = "1.0" }
+// ethers = "2.0.14"
 // tokio = { version = "1", features = ["full"] }
 
 // cargo build
