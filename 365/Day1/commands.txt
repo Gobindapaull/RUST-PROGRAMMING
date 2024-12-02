@@ -1,0 +1,10 @@
+rustc --version
+rustup self uninstall -y
+rustup show
+rustup update
+
+cargo --version
+cargo new project_name
+cd project_name
+cargo build
+cargo run
