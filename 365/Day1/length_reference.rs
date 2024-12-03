@@ -8,3 +8,5 @@ fn main() {
 fn get_length(s: &String) -> usize {
     return s.len();
 }
+
+// In Rust, references are a way to allow access to data without taking ownership of it
