@@ -1,0 +1,7 @@
+- cargo new newbot
+- cd newbot
+- export BSC_RPC_URL="https://bsc-dataseed.binance.org"
+- export PRIVATE_KEY=""
+- export RECIPIENT_ADDRESS=""
+- cargo run
+
