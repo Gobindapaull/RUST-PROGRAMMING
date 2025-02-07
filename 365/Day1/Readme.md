@@ -1,0 +1,8 @@
+- Installing Rust on Linux
+- Writing a program
+- cargo = Rust's package manager and build system
+- curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+- rustc --version
+- echo $PATH
+- rustup update
+- rustup doc
