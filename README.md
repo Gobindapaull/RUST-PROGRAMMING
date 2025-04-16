@@ -7,7 +7,7 @@ Command:
 
 rustc --version
 
-rustc update
+rustup update
 
 ls -lh
 
