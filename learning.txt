@@ -1,1 +1,31 @@
+⚡ Ultra-fast Execution (Rust) – Rust is insanely fast and reliable, perfect for sniping, front-running.
 
+
+
+Rust Error:
+
+1) `Option<&str>` doesn't implement `std::fmt::Display`
+Soluation: {:?}
+
+
+
+
+Concepts:
+1) None means "null" or "no value"
+2) f64 = A 64-bit floating-point type
+3) Sha256::new() = Create new hasher instance.
+4) hasher.finalize() = Retrieve result.
+5) cargo tree | grep generic-array
+6) cargo run --bin getSlot
+
+
+Dependencies:
+1) cargo add sha2
+2) cargo add digest
+3) cargo add generic_array
+4) cargo add typenum
+5) cargo add tokio --features macros,full
+
+
+Solana:
+1) getSlot
