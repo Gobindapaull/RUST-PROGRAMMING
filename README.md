@@ -19,4 +19,4 @@ cargo run
 
 cargo tree | grep generic-array
 
-
+cargo run --bin getSlot
