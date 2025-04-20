@@ -17,4 +17,6 @@ cargo new project_name
 
 cargo run
 
+cargo tree | grep generic-array
+
 
